@@ -1,0 +1,176 @@
+%% CV - R Darshan Karthikeya
+%% Software Development Engineer | Full-Stack & Backend Specialist
+%%
+%% Compile with: lualatex main_example.tex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force the name and section headings to render in moderncv blue (color1).
+\renewcommand*{\namefont}{\fontsize{34}{36}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={R Darshan Karthikeya - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% personal data
+\name{R Darshan}{Karthikeya}
+\address{Chennai, Tamil Nadu, India}{}{}
+\phone[mobile]{+91 8297022338}
+\email{darshankarthik05@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/your-profile}{LinkedIn}, \href{https://github.com/karthikeya1220}{GitHub}, \href{https://darshan-karthikeya.vercel.app}{Portfolio}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Software Development Engineer with 16+ months of hands-on experience across full-stack and backend roles, building production systems at QuantaGlobal, SRNR IT Solutions, and Viswam.ai. Proficient in JavaScript/TypeScript, Python, and Go, with production experience in scalable backend APIs (Node.js, Express), real-time monitoring platforms, and distributed microservices (PostgreSQL, MongoDB, Redis). Built and shipped production systems serving 500+ concurrent users with optimized performance (35\% latency reduction, 40\% throughput improvement). Strong problem-solver with a track record of end-to-end feature ownership, cross-functional collaboration, and thriving in fast-paced, high-impact environments.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Backend \& APIs}: Node.js, Express.js, REST APIs, Microservices, JWT/OAuth, Event-Driven Architecture, Redis Caching
+
+\item \textbf{Frontend \& Mobile}: React.js, Next.js, React Native, Tailwind CSS, shadcn/ui, Zustand, Framer Motion
+
+\item \textbf{Databases}: PostgreSQL, MongoDB, Redis, Prisma ORM, Query Optimization (EXPLAIN, Indexing, Connection Pooling)
+
+\item \textbf{Cloud \& DevOps}: AWS (EC2, S3, Lambda, RDS), GCP, Docker, CI/CD (GitHub Actions), Vercel, Railway
+
+\item \textbf{AI/ML \& Data}: LLM Integration, ETL Workflows, Anomaly Detection
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- SRNR IT Solutions ---
+\needspace{6\baselineskip}
+\item{\cventry{Sep 2025 - Feb 2026}{Software Engineer Intern}{SRNR IT Solutions}{Hyderabad}{}{\vspace{1pt}
+\begin{itemize}
+    \item Architected end-to-end HRMS microservices using Node.js, TypeScript, Express, and PostgreSQL; designed relational schemas for complex employee and payroll workflows reducing API latency by 35\% and improving throughput by 40\%
+    \item Implemented Redis-based session caching and event-driven data sync between finance and HR modules, eliminating data consistency failures and reducing cross-module latency by 30\%
+    \item Engineered scalable backend services handling concurrent requests from 500+ employees; implemented Docker containerization and CI/CD pipelines for reliable production deployments
+    \item Owned delivery of assigned modules from schema design through production deployment; achieved 90\%+ test coverage with Jest; mentored junior developers and collaborated with QA on production validation
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- QuantaGlobal ---
+\needspace{6\baselineskip}
+\item{\cventry{Jan 2025 - Aug 2025}{Full-Stack Software Engineer Intern}{QuantaGlobal}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Contributed to AI/ML-driven features including predictive models and anomaly detection on KPIs; built AI-powered chat interface
+    \item Developed ATS (Applicant Tracking System) tool to automate recruitment process; built SAP Monitoring Tool with frontend and system integration tracking real-time KPIs
+    \item Implemented RESTful API integrations between frontend and backend services; designed application-wide state management using Zustand
+    \item Built landing pages with animated and 3D hero sections; enhanced UI/UX design including theme configuration and color palettes
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Viswam.ai ---
+\needspace{5\baselineskip}
+\item{\cventry{Jun 2025 - Jul 2025}{AI Research Contributor}{Viswam.ai}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built large-scale data preprocessing pipelines (tokenization, deduplication, normalization) across multilingual corpora for India's first Telugu LLM
+    \item Developed Python-based backend utilities and data processing workflows; optimized application performance using efficient data structures
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{2022 - 2026}{B.Tech in Computer Science}{Indian Institute of Information Technology, Design and Manufacturing (IIITDM)}{Chennai, Tamil Nadu}{}{In progress, expected 2026. Key topics: Data Structures, Algorithms, Machine Learning, Web Development, Database Systems.}}
+
+\end{itemize}
+
+% ============================================================
+%     KEY PROJECTS
+% ============================================================
+
+\section{Key Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{UI-Flow} -- AI-Powered Wireframe-to-Code Platform (Live Demo: ui-flow.vercel.app)}
+\begin{itemize}
+    \item Built with Next.js 15, React 19, TypeScript, Firebase, Supabase, PostgreSQL
+    \item Converts design wireframes and mockups into production-ready React code using AI
+\end{itemize}}
+
+\item{\textbf{HireNexa} -- AI-Powered Applicant Tracking System}
+\begin{itemize}
+    \item Built with Next.js, TypeScript, MongoDB, Gemini AI, AWS S3
+    \item Features resume parsing, keyword matching, candidate management, and analytics
+\end{itemize}}
+
+\item{\textbf{TraceLM} -- Enterprise LLM Inference Logging Console}
+\begin{itemize}
+    \item Monorepo architecture: Next.js 16, Express, PostgreSQL, OpenAI/Anthropic SDKs
+    \item PII-redacting ingestion daemon, async batch logging, latency profiling dashboard
+\end{itemize}}
+
+\item{\textbf{MarketGlimpse} -- Stock Market Intelligence Platform}
+\begin{itemize}
+    \item Built with Next.js 16, React 19, TypeScript, Finnhub API, Gemini AI, MongoDB
+    \item Real-time market data, watchlist management, AI-powered investment insights
+\end{itemize}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English (professional working proficiency), Tamil (native).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}
