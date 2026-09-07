@@ -6,7 +6,7 @@ AI-powered job search framework setup for R Darshan Karthikeya. Cloned ai-job-se
 ## Actions Completed
 
 ### 1. Repository Setup
-- ✅ Cloned `MadsLorentzen/ai-job-search` to `~/Desktop/ai-job-search`
+- ✅ Cloned `karthikeya1220/ai-job-search` to `~/Desktop/ai-job-search`
 - ✅ Installed Bun runtime
 - ✅ Installed all 6 job search CLI tools (linkedin, freehire, jobbank, jobindex, jobdanmark, jobnet)
 
